@@ -16,13 +16,13 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React this is a test deployment again and again add another line</h1>
+      <h1>Successfully deployed to AWS S3 and CloudFront</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR again
+        I have successfully deployed this application to AWS S3 and CloudFront and also added a GitHub Actions workflow to automate the deployement process
         </p>
       </div>
       <p className="read-the-docs">
